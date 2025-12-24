@@ -2,116 +2,129 @@
 
 ## プロセス管理
 
-### 起動
+**単一ファイル起動**
 ```bash
-# 単一ファイル起動
 pm2 start app.js
+```
 
-# 名前を指定して起動
+**名前を指定して起動**
+```bash
 pm2 start app.js --name "my-app"
+```
 
-# ecosystem.config.js を使用
+**ecosystem.config.js を使用**
+```bash
 pm2 start ecosystem.config.js
 ```
 
-### ステータス確認
+**ステータス確認**
 ```bash
 pm2 status
-# または
+```
+
+```bash
 pm2 list
 ```
 
-### 詳細情報確認
+**詳細情報確認**
 ```bash
 pm2 show <アプリ名またはID>
 ```
 
-### 再起動
+**再起動**
 ```bash
 pm2 restart <アプリ名またはID>
+```
 
-# 全アプリ再起動
+**全アプリ再起動**
+```bash
 pm2 restart all
 ```
 
-### 停止
+**停止**
 ```bash
 pm2 stop <アプリ名またはID>
+```
 
-# 全アプリ停止
+**全アプリ停止**
+```bash
 pm2 stop all
 ```
 
-### 削除
+**削除**
 ```bash
 pm2 delete <アプリ名またはID>
+```
 
-# 全アプリ削除
+**全アプリ削除**
+```bash
 pm2 delete all
 ```
 
-### リロード（ゼロダウンタイム）
+**リロード（ゼロダウンタイム）**
 ```bash
 pm2 reload <アプリ名またはID>
 ```
 
 ## ログ管理
 
-### ログ表示
+**全アプリのログ**
 ```bash
-# 全アプリのログ
 pm2 logs
+```
 
-# 特定アプリのログ
+**特定アプリのログ**
+```bash
 pm2 logs <アプリ名またはID>
+```
 
-# ログクリア
+**ログクリア**
+```bash
 pm2 flush
 ```
 
 ## モニタリング
 
-### リアルタイムモニタリング
+**リアルタイムモニタリング**
 ```bash
 pm2 monit
 ```
 
 ## 自動起動設定
 
-### startup設定（システム起動時にPM2を自動起動）
+**startup設定（システム起動時にPM2を自動起動）**
 ```bash
 pm2 startup
-# 表示されたコマンドを実行
 ```
 
-### 現在のプロセスリストを保存
+**現在のプロセスリストを保存**
 ```bash
 pm2 save
 ```
 
-### 保存済み設定から復元
+**保存済み設定から復元**
 ```bash
 pm2 resurrect
 ```
 
-### startup設定解除
+**startup設定解除**
 ```bash
 pm2 unstartup
 ```
 
 ## その他便利コマンド
 
-### 環境変数を指定して起動
+**環境変数を指定して起動**
 ```bash
 pm2 start app.js --env production
 ```
 
-### CPU/メモリ使用量確認
+**CPU/メモリ使用量確認**
 ```bash
 pm2 status
 ```
 
-### プロセスの更新
+**プロセスの更新**
 ```bash
 pm2 update
 ```
