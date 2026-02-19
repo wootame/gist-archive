@@ -2,6 +2,9 @@
 
 アプリケーション開発・実行環境を提供するサービス。インフラ管理を抽象化し、開発者がコードの作成に集中できるようにする。自動スケーリング、ロードバランシング、デプロイメントなどの機能を提供。
 
+**関連メモ:**
+- Git / GitHub の実操作は [Operations/VersionControl/Git/CMD.md](../../Operations/VersionControl/Git/CMD.md)
+
 ## 主要サービス
 
 ### Heroku

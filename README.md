@@ -47,6 +47,9 @@ gist-archive/
 │  └─ Security/
 │     └─ UFW/
 │        └─ CMD.md
+│  └─ VersionControl/
+│     └─ Git/
+│        └─ CMD.md
 ├─ Tools/
 │  └─ Browser/
 │     └─ SHORTCUTS.md
@@ -60,5 +63,6 @@ gist-archive/
 - 概念整理は `Concepts/`（クラウド分類など）
 - データベース実務は `Data/Databases/`（CMD / SQL / 手続き言語）
 - サーバー運用コマンドは `Operations/`
+- Git / GitHub 操作は `Operations/VersionControl/Git/`
 - ツール固有の操作メモは `Tools/`
 - 記法や文書作成系は `Docs/`

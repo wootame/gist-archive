@@ -2,10 +2,16 @@
 
 完成されたソフトウェアをインターネット経由で提供するサービス。ユーザーはソフトウェアを購入・インストールする必要なく、ブラウザやAPI経由で利用できる。
 
+**関連メモ:**
+- Git / GitHub の実操作は [Operations/VersionControl/Git/CMD.md](../../Operations/VersionControl/Git/CMD.md)
+
 ## 開発・DevOps
 
 ### GitHub
 コード管理とコラボレーションプラットフォーム。開発チームの中心的なツール。
+
+**操作メモ:**
+- 実務コマンド集: [Operations/VersionControl/Git/CMD.md](../../Operations/VersionControl/Git/CMD.md)
 
 **特徴:**
 - Gitベースのバージョン管理
