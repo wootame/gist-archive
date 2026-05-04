@@ -28,34 +28,46 @@ gist-archive/
 │        ├─ SQL.md
 │        └─ pgSQL.md
 ├─ Operations/
+│  ├─ Cloud/
+│  │  └─ AWS/
+│  │     ├─ CLI/
+│  │     │  └─ CMD.md
+│  │     └─ SAM/
+│  │        └─ CMD.md
 │  ├─ Containers/
-│  │  └─ Docker/
-│  │     ├─ Compose/
-│  │     └─ Docker/
-│  ├─ WebServer/
-│  │  └─ Nginx/
-│  │     └─ CMD.md
-│  ├─ ProcessManager/
-│  │  └─ PM2/
-│  │     └─ CMD.md
-│  ├─ SystemService/
-│  │  └─ Systemd/
+│  │  ├─ Docker/
+│  │  │  ├─ Compose/
+│  │  │  └─ Docker/
+│  │  └─ LocalStack/
 │  │     └─ CMD.md
 │  ├─ OS/
 │  │  └─ Ubuntu/
 │  │     └─ CMD.md
-│  └─ Security/
-│     └─ UFW/
-│        └─ CMD.md
-│  └─ VersionControl/
-│     └─ Git/
+│  ├─ ProcessManager/
+│  │  └─ PM2/
+│  │     └─ CMD.md
+│  ├─ Security/
+│  │  └─ UFW/
+│  │     └─ CMD.md
+│  ├─ SystemService/
+│  │  └─ Systemd/
+│  │     └─ CMD.md
+│  ├─ VersionControl/
+│  │  └─ Git/
+│  │     └─ CMD.md
+│  └─ WebServer/
+│     └─ Nginx/
 │        └─ CMD.md
 ├─ Tools/
 │  └─ Browser/
 │     └─ SHORTCUTS.md
 └─ Docs/
-	└─ Markdown/
-		└─ SYNTAX.md
+│  ├─ Markdown/
+│  │  └─ SYNTAX.md
+│  ├─ Mermaid/
+│  │  └─ SYNTAX.md
+│  └─ PUML/
+│     └─ SYNTAX.md
 ```
 
 ## 分類ルール
