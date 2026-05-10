@@ -1,5 +1,19 @@
 # その他の操作
 
+## Clipboard
+
+**Clipboard に登録**
+```
+Set-Clipboard
+```
+
+**Clipboard の内容取得**
+```
+Get-Clipboard
+```
+※終了方法
+Ctrl + Z → Enter
+
 ## 圧縮・解凍
 
 **tar.gz 作成**
