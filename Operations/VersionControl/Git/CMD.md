@@ -183,30 +183,3 @@ git tag <タグ名>
 ```bash
 git push origin <タグ名>
 ```
-
-## GitHub 操作（CLI: gh）
-
-**GitHubにログイン**
-```bash
-gh auth login
-```
-
-**現在ディレクトリをGitHubリポジトリとして作成**
-```bash
-gh repo create <リポジトリ名> --private --source=. --remote=origin --push
-```
-
-**Pull Request作成**
-```bash
-gh pr create --base <ベースブランチ> --head <ブランチ名>
-```
-
-**Pull Request一覧**
-```bash
-gh pr list
-```
-
-**Issue一覧**
-```bash
-gh issue list
-```

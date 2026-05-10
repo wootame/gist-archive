@@ -62,8 +62,13 @@ gist-archive/
 │     └─ Nginx/
 │        └─ CMD.md
 ├─ Tools/
-│  └─ Browser/
-│     └─ SHORTCUTS.md
+│  ├─ Browser/
+│  │  └─ Chrome.md
+│  └─ Editor/
+│     ├─ Neovim/
+│     │  └─ cmd.md
+│     └─ VSCode/
+│        └─ cmd.md
 └─ Docs/
 │  ├─ Markdown/
 │  │  └─ SYNTAX.md
