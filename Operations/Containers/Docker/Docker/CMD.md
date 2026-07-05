@@ -276,3 +276,28 @@ docker system prune
 ```bash
 docker system prune -a --volumes
 ```
+
+## トラブルシューティング（Windows / Docker Desktop）
+
+**デーモンの稼働状況確認**
+```bash
+docker info
+```
+応答が返らずハングする場合、デーモンがフリーズしている可能性が高い。
+
+**Docker Desktop 関連プロセスの確認**
+```powershell
+Get-Process -Name "*docker*" | Select-Object Name, Id, Path
+```
+
+**応答がない場合の強制再起動**
+```powershell
+Stop-Process -Name "Docker Desktop","com.docker.backend","com.docker.build","com.docker.dev-envs","docker" -Force
+Start-Process "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+```
+Docker Desktop の起動・デーモン初期化には数十秒〜数分かかる。
+
+**再起動後の疎通確認（ポーリング）**
+```bash
+until docker info >/dev/null 2>&1; do sleep 3; done; echo "Docker daemon is ready"
+```
