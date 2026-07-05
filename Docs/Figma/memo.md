@@ -24,7 +24,7 @@ Figma は基本的に Frame を中心に構成されており、Frame 内に Com
 
 １）F を押す
 
-２）Design パネル
+２）Design パネル<br />
 ![alt text](image.png)
 
 ３）Ctrl + Alt + G
